@@ -19,4 +19,11 @@ This lab demonstrates how to configure shared folders with different permission 
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+<h2>Configuration Steps</h2>
+--1 Create Shared Folders on DC-1
+
+--2 Test Access as Normal User
+
+--3 Create ACCOUNTANTS Group
+
+--4 Add User to Group & Retest
