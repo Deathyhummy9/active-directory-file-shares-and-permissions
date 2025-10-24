@@ -32,6 +32,8 @@ This lab demonstrates how to configure shared folders with different permission 
 Step 1 Create Shared Folders on DC-1
 -----------------------------------------
 
+<img width="983" height="706" alt="Screenshot (129)" src="https://github.com/user-attachments/assets/3cf4132f-a27c-441d-8c2e-8508de6117cf" />
+
 Log in as: mydomain.com\jane_admin
 
 Create folders on C:\:
@@ -47,6 +49,9 @@ no-access → Domain Admins → Read/Write
 
 Step 2 Test Access as Normal User
 --------------------------------
+
+<img width="1022" height="581" alt="Screenshot (131)" src="https://github.com/user-attachments/assets/11a923d1-7960-4c8a-98b1-73a6feff1567" />
+
 Log in to Client-1 as: mydomain\(what ever user u chosse)
 
 Navigate to \\dc-1
@@ -60,6 +65,9 @@ no-access → access denied
 
 Step 3 Create ACCOUNTANTS Group
 ---------------------------------
+
+<img width="1692" height="997" alt="Screenshot (130)" src="https://github.com/user-attachments/assets/718fd740-88b0-47d0-9018-a5741c3cf808" />
+
 On DC-1:
 Open ADUC
 Create security group ACCOUNTANTS
